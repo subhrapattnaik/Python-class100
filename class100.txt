@@ -1,0 +1,104 @@
+Install python package manager -pip
+Install and use howdoi using pip
+use howdoi to ask questions to python
+---------------------------------------------
+
+Recap:
+
+we learned about packages/mosules in python
+we used os and shutil modules in python
+--------------------------------------
+
+python comes with certain packages/modules pre installed
+os and shutil packages are such packages comes pre installed when you install python
+----------------------------------------------
+
+There are many more interesting and exciting packages in python which we can install and use
+
+To install packages in python we use a package manager called pip.
+
+syntax:
+pip install packages
+
+just like we have used npm,yarn for installing packages in react native
+---------------------------------------------------
+
+
+Install pip in your system:
+
+Step1:
+save the file (given in teacher activity1) get-pip.py in your project folder
+step2:
+open cmd ,go to that folder containging get-pip.py
+step3:
+python get-pip.py
+
+step-4:
+check if pip is installed or not
+
+pip3 --version
+
+---------------------------------------------------------
+Install howdoi :
+
+pip3 install howdoi
+
+howdoi is a very interesting tool for python develpers
+howdoi is a very popular python package
+It is like google for developers.
+
+
+howdoi is a command-line tool written in Python. It gives the answers to do basic programming tasks, while working still in the console, directly from the command line. It scrapes code from the top answers on StackOverflow. You need an internet connection for using howdoi. 
+
+howdoi will answer all sorts of queries related to programming and coding. Like getting help in syntax, searching for libraries for a specific purpose, resolving errors, using pre-defined functions and their applications, etc. 
+
+
+Ex:
+
+howdoi write functions in python
+
+howdoi declare variables in python
+
+howdoi write class in python
+
+---------------------------------------------------------------
+
+Explain each of them
+
+OOPS->Object Oriented Programming
+It is a way of structuring code where programmers imagine everything as an object.
+We design objects using class(blueprint) and create a new object using class
+Python is also object Oriented
+--------------------------------------------------------
+
+Indentation is very important in python
+A class is defined in python with the keyword 
+
+class Student:
+
+or
+
+class Student(object):
+
+---------------------------------------
+_init_ is a predefined function in python and it is very similar to our
+constructor in javascript.It is called whenever we create an object
+using the class.It takes some arguments and creates an object using arguments.
+
+self -is similar to 'this' keyword in javascript.
+
+------------------------------
+python does not need keyword 'new'
+
+you can create new objects using the class by using the class name.
+
+Ex:
+
+John= Student("John",12,6)
+This is how we create objects in python
+-----------------------------------
+
+class functions which begin with double underscore (--) are called special
+functions as they have special meaning.
+
+-------------------------------------------
